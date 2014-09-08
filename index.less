@@ -1,0 +1,31 @@
+/* LESS Document */
+
+@bgclr: rgb(33,60,90);
+@origin-width: 1000px;
+@origin-height: 675px;
+
+@media screen and (max-height:954px){
+#wrap{
+	height:@origin-height;
+	top:50%;
+	margin-top:-0.5*@origin-height;
+}
+}
+
+@media screen and (max-height:@origin-height){
+#wrap{
+	height:@origin-height;
+	top:0;
+	margin-top:0;
+}
+}
+@media screen and (min-height:955px){
+body{
+	display:none;
+}
+}
+
+#zishiying{
+	display:block;
+}
+
